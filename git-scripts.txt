@@ -1,0 +1,30 @@
+--------INDTRODUCTION
+git is most papular version control system.
+git helps us manage our files
+git tracks every changes we make in our project. (history)
+get makes easy to collaborate with other developers.
+get makes us easy to work on multiple features at once.
+Project = Repository
+working directory = location where files in folder
+staging = is preparing something for commit
+commit = git saves files in its history
+push = push changes/files form local to remote server (computer to github)
+pull = pull(download) changes/files from remote to local server (github to computer)
+pwd = print the working directory
+clone = copy an existing repository from server to our computer's hard drive.
+origin = your addresses of repo
+
+-------SCRIPTS
+
+mkdir "hello-world" = make new directory hello-world
+git init = git starts while writing this command in the directory/file
+touch "index.html" = creating a new txt file index.html
+git status = to check status of file weather in staging area or commited (tells everything)
+git add index.html = git adds index.html into the staging phase
+git add -A = git adds all the changes/new-files to the staging area
+git commit -m "hi how are you?" = git moves file from staging to commit phase with message hi how are you?
+git checkout -- . = revert changes or deleted files/directory back (this works when file/directory is in the commit phase) 
+git clone https://hithub.com/learnwebcode/welcome-to-git.git = clone the directory from server to computer
+git remote -v = shows from where file has been fetcjed and where have to push (both adresses)
+git remote set-url origin https://github.com/username/repo.git = updates url for push and pull
+git push origin master = push committed files from local to remote
